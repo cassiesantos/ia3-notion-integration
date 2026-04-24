@@ -1,0 +1,135 @@
+/* Import DM Sans */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: linear-gradient(135deg, #a8a927, #485d18);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+/* Main container */
+.container {
+  background: white;
+  padding: 42px 32px;
+  border-radius: 18px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Title */
+h2 {
+  margin-bottom: 28px;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+/* Form layout */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  max-width: 340px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+input,
+textarea {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+}
+
+/* Placeholder styling */
+input::placeholder,
+textarea::placeholder {
+  font-family: 'DM Sans', sans-serif;
+  color: #9ca3af;
+}
+
+/* Textarea */
+textarea {
+  resize: none;
+  height: 110px;
+}
+
+/* Button */
+button {
+  margin-top: 8px;
+  padding: 14px;
+  background: linear-gradient(135deg, #a8a927, #485d18);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+}
+
+/* Status messages */
+#status {
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+.success {
+  color: #16a34a;
+}
+
+.error {
+  color: #dc2626;
+}
+
+button {
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+
+/* Hover (already kinda have this, but cleaner) */
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+}
+
+/* CLICK / PRESS EFFECT */
+button:active {
+  transform: translateY(2px) scale(0.98);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: disabled state while submitting */
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
