@@ -29,4 +29,4 @@ LIMITATIONS
 -> notion API requires exact property name matching, which can cause failures if mismatched
 
 AI USAGE DISCLOSURE
-AI (ChatGPT) was used for debugging initial code and improving validation logic. It was also used to refine frontend behavior like preventing empty submissions. I also used YouTube to understand Notion integration better.
+AI (ChatGPT) was used for quick improvement of css, debugging initial code problems, and improving validation logic. It was also used to refine frontend behavior like preventing empty submissions. I also used YouTube to understand Notion integration better.
