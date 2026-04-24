@@ -1,8 +1,8 @@
 PROJECT DESCRIPTION (COMTECH)
-This is a very simple lead form that sends user input (name, email, and message) directly into a Notion database. Through a clean UI, users can submit necessary information while using automatic storage and organization inside Notion for easy tracking.
+A very straightforward lead form that sends user input (name, email, and message) directly into a Notion database. Through a clean UI, users can submit necessary information while organizing is done inside Notion for easy tracking.
 
 API USED
-Notion API is used to create new pages which serve as the entries in a tabular Notion database. Each form submission is converted into organized data and stored as a database row with properties such as Name, Email, and Message.
+Notion API was used to create new pages which serve as the entries in a tabular Notion database. Each form submission is converted into organized data and stored as a database row with properties such as Name, Email, and Message.
 
 SETUP INSTRUCTIONS
 -> npm install
